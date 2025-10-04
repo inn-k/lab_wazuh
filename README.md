@@ -61,4 +61,7 @@ Wazuh se demostró como una herramienta poderosa e intuitiva para la recolecció
 
 ---
  
-**Autora: Ingrid K.**
+## 👩‍💻 Autora
+
+**Ingrid K.**  
+📅 Agosto 2025
