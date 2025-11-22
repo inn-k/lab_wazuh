@@ -13,41 +13,41 @@
 
 ## 🌟 Descripción
 
-Este laboratorio documenta la instalación y configuración básica de **Wazuh** como plataforma SIEM/EDR de código abierto.  
+Registro de la instalación y configuración básica de **Wazuh** como plataforma SIEM/EDR de código abierto.  
 Incluye el despliegue del servidor, el acceso al dashboard, la incorporación de agentes y la verificación de sus capacidades de monitoreo y análisis, orientado a prácticas iniciales de **SOC / Blue Team**.
 
 ---
 
-## 📁 Evidencias Técnicas
+## 📁 Evidencias
 
-Configuración Inicial \
-• Máquina virtual dedicada con credenciales locales (`wazuh-user / wazuh`) \
+Configuración Inicial: \
+• Máquina virtual dedicada con credenciales locales (`wazuh-user / wazuh`). \
 • Configuración de red estática: `192.168.1.34/24`
 
-Acceso al Dashboard \
-• Ingreso vía navegador web \
+Acceso al Dashboard: \
+• Ingreso vía navegador web. \
 • Credenciales por defecto: `admin / admin`
 
-Estado de la Plataforma \
-• Agentes: 1 activo \
-• Métricas básicas visibles desde el panel \
-• Alertas clasificadas por severidad
+Estado de la Plataforma: \
+• Agentes: 1 activo. \
+• Métricas básicas visibles desde el panel. \
+• Alertas clasificadas por severidad.
 
-Despliegue de Agentes \
-• Instalación del agente en **Ubuntu 24.04** \
-• Enlace correcto al servidor Wazuh Manager \
-• Verificación de servicios (`wazuh-agent`, `wazuh-dashboard`)
+Despliegue de Agentes: \
+• Instalación del agente en **Ubuntu 24.04**. \
+• Enlace correcto al servidor Wazuh Manager. \
+• Verificación de servicios (`wazuh-agent`, `wazuh-dashboard`).
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Objetivos 
 
-•  Monitorización de endpoints  
-•  Detección de vulnerabilidades  
-•  File Integrity Monitoring  
-•  Threat Hunting básico  
-•  Integración con MITRE ATT&CK  
-•  Alertas de malware y anomalías
+•  Monitorización de endpoints. \
+•  Detección de vulnerabilidades. \
+•  File Integrity Monitoring. \
+•  Threat Hunting básico. \
+•  Integración con MITRE ATT&CK. \
+•  Alertas de malware y anomalías.
 
 ---
 
