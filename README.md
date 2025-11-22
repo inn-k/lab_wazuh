@@ -1,69 +1,75 @@
-# Implementación de Wazuh
+# 🛡️ Implementación de Wazuh
 
-![Wazuh](https://img.shields.io/badge/Wazuh-Platform-blue)
-![SOC](https://img.shields.io/badge/SOC-Level%201-orange)
-![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange)
-![Status](https://img.shields.io/badge/Status-Completed-green)
+![Wazuh](https://img.shields.io/badge/Wazuh-Platform-005C84?style=for-the-badge&logo=wazuh&logoColor=white)
+![SOC](https://img.shields.io/badge/SOC-Level%201-F97316?style=for-the-badge)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Completado-10B981?style=for-the-badge)
 
-## 📋 Descripción del Proyecto
+Este laboratorio presenta la instalación y puesta en marcha de Wazuh como plataforma de monitoreo de seguridad, mostrando su funcionamiento básico y las capacidades principales del entorno una vez desplegado.
 
-Este laboratorio documenta la implementación exitosa de **Wazuh**. Se incluyó el despliegue completo de la plataforma de seguridad de código abierto para la monitorización y análisis de seguridad.
+---
 
-## 🛠️ Evidencias Técnicas Implementadas
+## 📘 Descripción general
 
-### 🔹 Evidencia 1: Configuración Inicial
-- Máquina virtual con credenciales de acceso:
-  - Usuario: `wazuh-user`
-  - Contraseña: `wazuh`
+Este laboratorio documenta la instalación y configuración básica de **Wazuh** como plataforma SIEM/EDR de código abierto.  
+Incluye el despliegue del servidor, el acceso al dashboard, la incorporación de agentes y la verificación de sus capacidades de monitoreo y análisis, orientado a prácticas iniciales de **SOC / Blue Team**.
 
-### 🔹 Evidencia 2: Verificación de Red
-- Configuración de interfaz de red `eth0` con IP: `192.168.1.34/24`
-- Verificación mediante comando `ip addr`
+---
 
-### 🔹 Evidencia 3: Acceso a la Interfaz Web
-- Acceso al dashboard de Wazuh via Mozilla Firefox
-- Credenciales: `admin` / `admin`
+## 🛠️ Evidencias Técnicas
 
-### 🔹 Evidencia 4: Panel de Control Operativo
-- Dashboard principal con métricas de seguridad
-- Resumen de agentes: 1 activo, 0 desconectados
-- Visualización de alertas por nivel de severidad
+### Configuración Inicial
+• Máquina virtual dedicada con credenciales locales (`wazuh-user / wazuh`)
+• Configuración de red estática: `192.168.1.34/24`
 
-### 🔹 Evidencia 5: Despliegue de Agentes
-- Instalación del agente Wazuh en sistema Ubuntu
-- Configuración de conexión al servidor manager
-- Verificación del servicio `wazuh-dashboard`
+### Acceso al Dashboard
+• Ingreso vía navegador web  
+• Credenciales por defecto: `admin / admin`
 
-## 📊 Capacidades Demostradas
+### Estado de la Plataforma
+• Agentes: 1 activo  
+• Métricas básicas visibles desde el panel  
+• Alertas clasificadas por severidad
 
-- ✅ **Monitorización de Endpoints**
-- ✅ **Detección de Vulnerabilidades**
-- ✅ **File Integrity Monitoring**
-- ✅ **Threat Hunting**
-- ✅ **Integración MITRE ATT&CK**
-- ✅ **Detección de Malware**
+### Despliegue de Agentes
+• Instalación del agente en **Ubuntu 24.04**  
+• Enlace correcto al servidor Wazuh Manager  
+• Verificación de servicios (`wazuh-agent`, `wazuh-dashboard`)
 
-## 🎯 Resultados Obtenidos
+---
 
-### Top Vulnerabilidades Detectadas
-- CVE-2023-3326 (16 ocurrencias)
-- CVE-2022-3219 (11 ocurrencias)
-- CVE-2024-52615/52616 (7 ocurrencias cada una)
+## 📊 Capacidades Verificadas
 
-### Sistema Monitorizado
-- **OS**: Ubuntu 24.04.3 LTS
-- **Agente**: `ubuntu2025`
-- **Alertas**: 1,524 eventos registrados
+•  Monitorización de endpoints  
+•  Detección de vulnerabilidades  
+•  File Integrity Monitoring  
+•  Threat Hunting básico  
+•  Integración con MITRE ATT&CK  
+•  Alertas de malware y anomalías
+
+---
+
+## 🎯 Resultados
+
+### Vulnerabilidades destacadas
+• CVE-2023-3326  
+• CVE-2022-3219  
+• CVE-2024-52615 / 52616  
+
+### Sistema monitorizado
+• **OS:** Ubuntu 24.04.3 LTS  
+• **Agente:** `ubuntu2025`  
+• **Eventos registrados:** 1524 alertas  
+
+---
 
 ## 💡 Conclusión
 
-Wazuh se demostró como una herramienta poderosa e intuitiva para la recolección y análisis de logs, ideal para usuarios que comienzan en el ámbito SOC. A pesar de los desafíos técnicos durante la instalación, la implementación final fue exitosa y educativa.
+La implementación de Wazuh permitió validar funciones clave de seguridad, demostrando su utilidad como herramienta accesible para quienes inician en monitoreo, correlación y análisis de eventos dentro de un entorno SOC.
 
 ---
- 
-## 👩‍💻 Autora
 
-**Ingrid K.**  
+## 📬 Contacto
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ingrid-k)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ingrid-k)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ingridkaufmannok@gmail.com)
