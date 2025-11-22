@@ -9,12 +9,9 @@
 ![SOC](https://img.shields.io/badge/SOC-171434?style=for-the-badge)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-e95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-
-Este laboratorio presenta la instalación y puesta en marcha de Wazuh como plataforma de monitoreo de seguridad, mostrando su funcionamiento básico y las capacidades principales del entorno una vez desplegado.
-
 ---
 
-## 🌟 Descripción general
+## 🌟 Descripción
 
 Este laboratorio documenta la instalación y configuración básica de **Wazuh** como plataforma SIEM/EDR de código abierto.  
 Incluye el despliegue del servidor, el acceso al dashboard, la incorporación de agentes y la verificación de sus capacidades de monitoreo y análisis, orientado a prácticas iniciales de **SOC / Blue Team**.
